@@ -1,0 +1,47 @@
+{
+	"name": "commitlint-config",
+	"license": "MIT",
+	"main": "Build/Index.js",
+	"type": "module",
+	"types": "Build/Types/Index.d.ts",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf Build",
+		"prepare": "yarn clean && yarn build"
+	},
+	"devDependencies": {
+		"@commitlint/config-conventional": "^19.5.0",
+		"commitizen": "^4.3.1",
+		"rimraf": "^6.0.1",
+		"typescript-config": "^1.0.0"
+	},
+	"author": {
+		"name": "Emily Simone",
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11"
+	},
+	"description": "CommitLint Configuration For The Design System",
+	"homepage": "https://github.com/emsim11/Design-System/Configuration/CommitLint-Config#README",
+	"keywords": [
+		"CommitLint",
+		"Config",
+		"Configuration",
+		"Design System",
+		"Git",
+		"React",
+		"Vite"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emsim11/Design-System.git",
+		"directory": "Configuration/CommitLint-Config"
+	},
+	"bugs": {
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11/Design-System/Issues"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

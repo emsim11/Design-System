@@ -1,0 +1,51 @@
+# Build
+Build
+Dist
+ES
+HTML
+Lib
+
+# Components
+**/Constants.ts
+
+# Examples
+**/Examples/**
+
+# Icons
+Packages/Icons/**
+
+# IDEs & Editors
+.Idea
+.VSCode
+
+# Logs
+Logs/
+*.Log
+
+# Packages Managers
+Node_Modules
+Yarn-Debug.Log*
+Yarn-Error.Log*
+Yarn.Lock
+
+# Project Files
+**/CHANGELOG.md
+LICENSE
+**/LICENSE
+README.md
+**/README.md
+
+# React
+**/Storybook-Static/**
+
+# Styles
+**/*.css
+**/*.scss
+
+# Tempaltes
+**/*.Template.*
+
+# Test Logs
+Coverage
+**/Coverage
+**/A11y-Results

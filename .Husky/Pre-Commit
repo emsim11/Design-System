@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Pre-Commit: Invoked By `git commit` Before Prompting Commit Message
+
+# Checks Prettier & Exits If Failed
+npx --no-install lint-staged

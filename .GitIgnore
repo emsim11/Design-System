@@ -1,0 +1,27 @@
+# Build Directories
+Build
+Dist
+
+# Environment Variables
+.Env
+
+# IDEs & Editors
+.Idea
+.VSCode
+
+# Logs
+Checklist.md
+Logs/
+*.Log
+
+# MacOS
+.DS_STORE
+
+# Package Managers
+Node_Modules
+Yarn-Debug.log*
+Yarn-Error.log*
+
+# Testing
+Coverage
+**/Coverage

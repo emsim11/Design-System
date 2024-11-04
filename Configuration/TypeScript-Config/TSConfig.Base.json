@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"allowJs": true,                                    /* Allow JavaScript files to be a part of the program. Use the 'checkJs' option to get errors from these files. */
+		"allowUnreachableCode": false,						/* Enable reporting of unreachable code. `undefined` (default) provides suggestions as warnings in editor. Set to `true` to ignore unreachable code, or `false` to raise compiler errors about unreachable code. */
+		"allowUnusedLabels": false,							/* Enable to prevent error reporting for unused labels. */
+		"checkJs": true,									/* Enable error reporting for JavaScript files. Works together with 'allowJs'. */
+        "declaration": true,                                /* Generate .d.ts files from JavaScript and TypeScript files in project. */
+		"declarationDir": "Build/Types",					/* Configure the root directory for where declaration (`d.ts`) files are emitted. */
+		"declarationMap": true,								/* Generate a source map for `.d.ts` files which map back to the original `.ts` source file. This will allow editors to go to the original `.ts` file when using features like Go To Definition. */
+        "esModuleInterop": true,                            /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+        "forceConsistentCasingInFileNames": true,           /* Ensure that casing is correct in imports. */
+        "isolatedModules": true,                            /* Ensure that each file can be safely transpiled without relying on other imports. */
+        "jsx": "react-jsx",                                 /* Specify what JSX code is generated. */
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],           /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+        "module": "ESNext",                                 /* Specify what module code is generated. */
+        "moduleResolution": "Node",                         /* Specify how TypeScript looks up a file from a given module specifier. */
+        "noFallthroughCasesInSwitch": false,                /* Enable error reporting for fallthrough cases in switch statements. */
+        "noImplicitAny": true,                              /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+        "noUnusedLocals": false,                            /* Enable error reporting when local variables aren't read. */
+        "noUnusedParameters": false,                        /* Raise an error when a function parameter isn't read. */
+		"removeComments": false,							/* Strip all comments from TypeScript files when converting into JavaScript. */
+        "resolveJsonModule": true,                          /* Enable importing .json files. */
+        "skipLibCheck": true,                               /* Skip type checking all .d.ts files. */
+        "strict": true,                                     /* Enable all strict type-checking options. */
+        "target": "ESNext"                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"name": "vitest-config",
+	"license": "MIT",
+	"main": "Build/Index.js",
+	"files": [],
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "yarn lint && yarn format && tsc",
+		"clean": "rimraf Build",
+		"lint": "",
+		"format": "",
+		"prepare": "yarn clean && yarn build",
+		"test": ""
+	},
+	"dependencies": {
+		"tsconfig-paths": "^4.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^9.13.0",
+		"prettier": "^3.3.3",
+		"rimraf": "^6.0.1",
+		"typescript": "^5.6.3",
+		"vitest": "^2.1.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5.6.3",
+		"vite": "^5.4.9"
+	},
+	"author": {
+		"name": "Emily Simone",
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11"
+	},
+	"description": "Vitest Configuration For The Design System",
+	"homepage": "https://github.com/emsim11/Design-System/Configuration/Vitest-Config#README",
+	"keywords": [
+		"Config",
+		"Configuration",
+		"Design System",
+		"React",
+		"Testing",
+		"Vite",
+		"Vitest"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emsim11/Design-System.git",
+		"directory": "Configuration/Vitest-Config"
+	},
+	"bugs": {
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11/Design-System/Issues"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

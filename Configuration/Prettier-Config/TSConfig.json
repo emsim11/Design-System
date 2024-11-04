@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"declarationDir": "Build/Types",
+		"outDir": "Build"
+	},
+	"extends": "typescript-config/TSConfig.Base.json",
+	"include": ["**/*"]
+}

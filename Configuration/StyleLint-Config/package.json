@@ -1,0 +1,47 @@
+{
+	"name": "stylelint-config",
+	"license": "MIT",
+	"main": "Build/Index.js",
+	"files": [],
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf Build",
+		"prepare": "yarn clean && yarn build"
+	},
+	"devDependencies": {
+		"rimraf": "^6.0.1"
+	},
+	"author": {
+		"name": "Emily Simone",
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11"
+	},
+	"description": "StyleLint Configuration For The Design System",
+	"homepage": "https://github.com/emsim11/Design-System/Configuration/StyleLint-Config#README",
+	"keywords": [
+		"Config",
+		"Configuration",
+		"CSS",
+		"Design System",
+		"Linting",
+		"React",
+		"SCSS",
+		"StyleLint",
+		"Style Sheet Linter",
+		"Vite"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emsim11/Design-System.git",
+		"directory": ""
+	},
+	"bugs": {
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11/Design-System/Issues"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

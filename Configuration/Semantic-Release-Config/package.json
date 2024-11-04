@@ -1,0 +1,50 @@
+{
+	"name": "semantic-release-config",
+	"license": "MIT",
+	"main": "Build/Index.js",
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf Build",
+		"lint": "",
+		"format": "",
+		"prepare": "yarn clean && yarn build"
+	},
+	"devDependencies": {
+		"rimraf": "^6.0.1",
+		"semantic-release": "^24.2.0"
+	},
+	"author": {
+		"name": "Emily Simone",
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11"
+	},
+	"description": "Semantic Release Configuration For The Design System",
+	"homepage": "https://github.com/emsim11/Design-System/Configuration/Semantic-Release-Config#README",
+	"keywords": [
+		"Automation",
+		"CHANGELOG",
+		"CI/CD",
+		"Config",
+		"Configuration",
+		"Design System",
+		"GitHub Actions",
+		"React",
+		"Semantic Release",
+		"Versioning",
+		"Vite"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emsim11/Design-System.git",
+		"directory": "Configuration/Semantic-Release-Config"
+	},
+	"bugs": {
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11/Design-System/Issues"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"name": "jest-config",
+	"license": "MIT",
+	"main": "Build/Index.js",
+	"files": [],
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf Build",
+		"prepare": "yarn clean && yarn build"
+	},
+	"devDependencies": {
+		"rimraf": "^6.0.1"
+	},
+	"author": {
+		"name": "Emily Simone",
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11"
+	},
+	"description": "Jest Configuration For The Design System",
+	"homepage": "https://github.com/emsim11/Design-System/Configuration/Jest-Config#README",
+	"keywords": [
+		"Config",
+		"Configuration",
+		"Design System",
+		"Jest",
+		"React",
+		"Testing",
+		"Vite"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emsim11/Design-System.git",
+		"directory": "Configuration/Jest-Config"
+	},
+	"bugs": {
+		"email": "emsimone11@gmail.com",
+		"url": "https://github.com/emsim11/Design-System/Issues"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

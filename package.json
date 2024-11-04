@@ -1,0 +1,47 @@
+{
+    "name": "design-system",
+    "license": "MIT",
+    "private": true,
+    "repository": "https://github.com/emsim11/Design-System",
+    "type": "module",
+    "version": "1.0.0",
+    "scripts": {
+        "commit": "git-cz",
+        "format": "prettier --cache --write '**/*.{js,ts,tsx}' '!**/{Build,Lib,Storybook}/**'",
+        "format:check": "prettier --list-different '**/*.{js,jsx,ts,tsx}' '!**/{Build,Lib,Storybook}/**'",
+        "lint": "",
+        "lint:check": "",
+        "lint:styles": "",
+        "test": "",
+        "test:e2e": ""
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "all-contributors-cli": "^6.26.1",
+        "commitizen": "^4.3.1",
+        "cz-conventional-changelog": "^3.3.0",
+        "cz-customizable": "^7.2.1",
+        "husky": "^8.0.0",
+        "lint-staged": "^15.2.10",
+        "prettier": "^3.3.3",
+        "rimraf": "^6.0.1",
+        "stylelint": "^16.10.0",
+        "typescript": "^5.6.3"
+    },
+    "workspaces": [
+        "Configuration/*"
+    ],
+    "engines": {
+        "node": ">=22"
+    },
+    "packageManager": "yarn@4.5.1",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": ".CZ-Config.cjs"
+        }
+    }
+}
