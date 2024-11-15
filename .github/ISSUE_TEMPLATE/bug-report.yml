@@ -120,7 +120,5 @@ body:
         - required: true
           label: Open Issues
           description: 'I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
-      validations:
-        - required: true
           label: Reproducible
           description: 'I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
