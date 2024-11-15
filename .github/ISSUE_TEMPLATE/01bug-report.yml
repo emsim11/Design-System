@@ -1,8 +1,8 @@
 name: 🐞 Bug Report
 description: Report a Bug
+projects: ['Project: Configuration']
 title: '[🐛 Bug Report]:'
 labels: ['Type: Bug 🐛']
-projects: ['Project: Configuration']
 assignees:
   - emsim11
 body:
