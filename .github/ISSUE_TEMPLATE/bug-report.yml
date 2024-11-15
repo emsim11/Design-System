@@ -1,7 +1,7 @@
-name: Bug Report
+name: 🐛 Bug Report
 description: Report a Bug
-title: '[🐛 Bug Report]:'
-labels: ['Type: Bug 🐛']
+title: '[:bug: Bug Report]:'
+labels: ['Type Bug :bug:']
 projects: ['Project: Configuration']
 assignees:
   - emsim11
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        'Thanks for taking the time to fill out this bug report to help us improve!'
+        Thanks for taking the time to fill out this bug report to help us improve!
   - type: input
     id: Contact
     attributes:
@@ -18,4 +18,108 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
-  
+  - type: textarea
+    id: Bug-Description
+    attributes:
+      label: Describe the Bug
+      description: Please provide a comprehensive and concise description of what the bug is.
+      placeholder: A bug happened!
+    validations:
+      required: true
+  - type: input
+    id: URL-Reproduce-Behavior
+    attributes:
+      label: URL to Reproduce Behavior
+      description: Please provide one or more URLs to where the issue is occurring.
+      placeholder: 'https://example.com'
+    validations:
+      required: true
+  - type: textarea
+    id: Steps-To-Reproduce
+    attributes:
+      label: Steps to Reproduce the Behavior
+      description: 'Please provide detailed step-by-step instructions on how to replicate this issue.'
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: Bash
+    validations:
+      required: true
+  - type: textarea
+    id: Expected-Behavior
+    attributes:
+      label: Expected Behavior
+      description: Please provide a clear and concise description of what you expected to happen or see.
+      placeholder: What were you expecting to happen or see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: Screenshots-and-Visuals
+    attributes:
+      label: Screenshots & Visuals
+      description: If applicable, please include screenshots or other visual attachments to help explain the problem that you are experiencing.
+      value: |
+        ![Screenshot](https://example.com/screenshot.png)
+  - type: dropdown
+    id: Version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.0 (Default)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: Browsers
+    attributes:
+      label: Web Browsers
+      description: Please select the browser(s) that you are experiencing the issue on?
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Microsoft Edge
+        - Opera
+  - type: dropdown
+    id: Operating-Systems
+    attributes:
+      label: Operating Systems
+      description: Please select the environment(s) that are being impacted by this issue.
+      multiple: true
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - Android
+        - iOS
+        - Other
+  - type: textarea
+    id: Logs
+    attributes:
+      label: Relevant Log Output
+      description: 'Please copy and paste any relevant log output or code to produce this issue. Be sure to include the version of the browser that you are using. Note: This will be automatically formatted into code, so no need for backticks.'
+      render: Shell
+  - type: textarea
+    id: Additional-Context
+    attributes:
+      label: Additional Context
+      description: 'Please provide any additional context or information that may be helpful in diagnosing and resolving this issue. This can include a device (e.g. iPhone6) a Version (e.g. v2.2.3), or any other relevant details.'
+  - type: checkboxes
+    id: Verify-Terms
+    attributes:
+      label: Verification
+      description: 'Before submitting this issue, please verify the following:'
+      options:
+        - label: Code of Conduct
+          description: 'I have read the [Community Participation Guidelines](https://example.com).'
+    validations:
+      - required: true
+        label: Open Issues
+        description: 'I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
+      - required: true
+        label: Reproducible
+        description: 'I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
