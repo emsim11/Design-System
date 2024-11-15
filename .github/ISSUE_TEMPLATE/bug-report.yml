@@ -108,19 +108,29 @@ body:
     attributes:
       label: Additional Context
       description: 'Please provide any additional context or information that may be helpful in diagnosing and resolving this issue. This can include a device (e.g. iPhone6) a Version (e.g. v2.2.3), or any other relevant details.'
-  - type: checkboxes
-    id: Verify-Terms
+  - type: markdown
     attributes:
-      label: Verification
-      description: 'Before submitting this issue, please verify the following:'
-      options:
-        - label: Code of Conduct
-          description: 'I have read the [Community Participation Guidelines](https://example.com).'
+      value: |
+        'Before submitting this issue, please verify the following:'
+  - type: checkboxes
+    id: Code-of-Conduct
+    attributes:
+      label: Code of Conduct
+      description:
+      options: 'I have read the [Community Participation Guidelines](https://example.com).'
     validations:
-        required: true
-        label: Open Issues
-        description: 'I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
-        required: true
-        label: Reproducible
-        description: 'I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
-        required: true
+      required: true
+  - type: checkboxes
+    id: Open-Issues
+    attributes:
+      label: Open Issues
+      description: 'I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
+    validations:
+      required: true
+  - type: checkboxes
+    id: Reproducible
+    attributes:
+      label: Reproducible
+      description: 'I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
+    validations:
+      required: true
