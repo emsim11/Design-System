@@ -6,7 +6,7 @@ projects: ['Project: Configuration']
 assignees:
   - emsim11
 body:
-  - type: Markdown
+  - type: markdown
     attributes:
       value: |
         'Thanks for taking the time to fill out this bug report to help us improve!'
