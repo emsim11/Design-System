@@ -2,7 +2,7 @@ name: Bug Report
 description: Report a Bug
 title: '[🐛 Bug Report]:'
 labels: ['Type: Bug 🐛']
-projects: ['Project: Configuration']
+projects: []
 assignees:
   - emsim11
 body:
