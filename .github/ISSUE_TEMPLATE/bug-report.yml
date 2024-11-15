@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
 description: Report a Bug
-title: '[:bug: Bug Report]:'
-labels: ['Type Bug :bug:']
+title: '[🐛 Bug Report]:'
+labels: ['Type Bug 🐛']
 projects: ['Project: Configuration']
 assignees:
   - emsim11
@@ -118,5 +118,5 @@ body:
           required: true
         - label: 'Open Issues: I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
           required: true
-        - label: '**Reproducible:** I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
+        - label: 'Reproducible: I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
           required: true
