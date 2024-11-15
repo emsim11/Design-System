@@ -4,7 +4,7 @@ title: '[🐛 Bug Report]:'
 labels: ['Type: Bug 🐛']
 projects: ['Project: Configuration']
 assignees:
-  - [emsim11](https://github.com/emsim11)
+  - '[emsim11](https://github.com/emsim11)'
 body:
   - type: markdown
     attributes:
