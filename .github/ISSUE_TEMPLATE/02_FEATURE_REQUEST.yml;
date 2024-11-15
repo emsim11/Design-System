@@ -1,0 +1,12 @@
+name: ✨ Feature Request
+description: Suggest a Feature For This Project
+labels: ['Issue: Feature Request 🦄']
+projects: []
+assignees:
+  - emsim11
+title: '[🦄 Feature Request]:'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request to help us improve!
