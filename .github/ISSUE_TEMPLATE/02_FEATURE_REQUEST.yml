@@ -9,4 +9,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request to help us improve!
+        'Thanks for taking the time to fill out this feature request to help us improve!'
