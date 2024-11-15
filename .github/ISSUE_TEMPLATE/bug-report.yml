@@ -114,12 +114,9 @@ body:
       label: Verification
       description: 'Before submitting this issue, please verify the following:'
       options:
-        - label: Code of Conduct
-          description: 'I have read the [Community Participation Guidelines](https://example.com).'
+        - label: '👩🏽‍⚖️ Code of Conduct: I have read the [Community Participation Guidelines](https://example.com).'
           required: true
-        - label: Open Issues
-          description: 'I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
+        - label: '🗂️ Open Issues: I have verified that there is not [already an issue](https://github.com/emsim11/The-Design-System/issues) that reports the same bug to avoid creating a duplicate.'
           required: true
-        - label: Reproducible
-          description: 'I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
+        - label: '🔄 Reproducible: I have verified that this is a concrete and reproducible bug. For Q&A, open a [GitHub Discussion](https://github.com/emsim11/The-Design-System/discussions/categories/q-a).'
           required: true
